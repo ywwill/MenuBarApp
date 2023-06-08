@@ -8,6 +8,7 @@ class PopWindowController: NSWindowController {
     
     override func windowDidLoad() {
         super.windowDidLoad()
-        
+     
+        window?.isMovable = false
     }
 }
